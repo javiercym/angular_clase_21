@@ -38,8 +38,6 @@ export class HomeComponent implements OnInit {
   }
 
   consumirLocal(){
-
-
     this.valorGlobal = this.globalDataService.globalVariable;
     this.nombre=String(localStorage.getItem('usuario'));
     this.logeado = Boolean(localStorage.getItem('log'));
